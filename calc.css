@@ -1,0 +1,306 @@
+body{
+	background: #F4F7F8;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+	
+#header{
+	width: 1400px;
+	height: 400px;
+	background: url('images/header/header.png');
+	padding-top: 0;
+	position: relative;
+}
+
+#details{
+	position: absolute;
+	top:30px;
+	left: 400px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+/* Header fonts */
+#name{
+	font-family: 'Roboto Slab', serif;
+	font-size: 3em;
+	color: rgb(255, 255, 255);
+	text-shadow: .1em .1em 0.15em rgb(150, 150, 150);
+}
+
+#name span{
+	font-weight: bold;
+}
+
+#path-span{
+	font-size: 1.5em;
+}
+
+#path{
+	font-family: Ubuntu, sans-serif;
+	font-size: 2em;
+	color: rgb(100, 100, 100);
+}
+
+#quote{
+	font-family: 'Meie Script', cursive;
+	font-size: 2em;
+}
+
+.quote{
+	color: rgb(120, 120, 120);
+}
+
+/* Navigation Menu */
+#main-nav{
+	width: 600px;
+	margin: 0 auto;
+}
+
+li{
+	display: inline-block;
+	font-family: 'Roboto Slab', 'Ubuntu', sans-serif;
+	font-size: 14px;
+
+	padding: 5px;
+	padding-left: 7px;
+	padding-right: 8px;
+	
+	border: 1px solid rgb(190, 190, 190);
+	border-radius: 2px;
+
+	color: rgb(58, 58, 58);
+}
+
+.top:hover{
+	color: rgb(192, 0, 0);
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-top: 2px solid rgb(200, 255, 50);
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.bottom:hover{
+	color: rgb(192, 0, 0);
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid rgb(200, 255, 50);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.top:active{
+	color: rgb(192, 0, 0);
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-top: 2px solid rgb(200, 255, 50);
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.bottom:active{
+	color: rgb(192, 0, 0);
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid rgb(200, 255, 50);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+li a{
+	color: rgb(192, 0, 0);
+	text-decoration: none;
+}
+
+li:hover{
+	color: rgb(0, 200, 200);
+}
+
+li:active{
+	color: rgb(200, 200, 0);
+}
+
+hr{
+	color: rgb(192, 192, 192);
+	opacity: .4;
+}
+
+a{
+	text-decoration: none;
+	color: DodgerBlue;
+}
+
+/*Profile Card*/
+#profile-card{
+	box-sizing: border-box;
+
+	width: 300px;
+	font-family: 'Ubuntu', sans-serif;
+
+	border: 5px solid rgba(0, 206, 209, .4);
+	border-radius: 3px;
+
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+
+	position: absolute;
+	right: 10px;
+}
+
+#name-div{
+	font-size: 1.5em;
+}
+
+#profile-pics{
+	position: relative;
+}
+
+#side-pics{
+	position: absolute;
+	left: 117px;
+	top: 3px;
+}
+
+#content{
+	font-size: 16px;
+}
+
+/*Calculator*/
+#calc-form{
+	position: absolute;
+	top: 550px;	
+	right: 500px;
+}
+
+legend{
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #f00;
+	width: 155px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+hr{
+	margin-top: 0;
+	color: rgba(0, 0, 0, .5);
+}
+
+form{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+
+	/*Center form on page*/
+	margin: 0 auto;
+	width: 300px;
+
+	/*Outline form*/
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-radius: 1em;
+}
+
+.form-widget{
+	margin-top: 1em;
+}
+
+.dot{
+	margin-bottom: -2px;
+}
+
+label{
+	padding-left: 45px;
+	padding-right: 5px;
+	text-align: left;
+	font-weight: normal;
+}
+
+input[type=text]{
+	width: 206px;
+	height: 30px;
+	border: 1px solid rgb(200, 200, 200);
+	border-radius: 2px;
+	padding-top: 0;
+}
+
+input[placeholder]{
+	opacity: 0.5;
+	font-family: inherit;
+	font-size: 14px;
+	text-align: right;
+}
+
+button{
+	width: 50px;
+	height: 50px;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: medium;
+	margin: 2px;
+	border-radius: 50%;
+}
+
+button:hover{
+	border: 1px solid rgb(192, 192, 192);
+	border-radius: 2px;
+}
+
+#big-C{
+	color: rgb(255, 0, 0);
+}
+
+.arithmetic:hover{
+	border: 0.5px solid rgb(218, 165, 32);
+	font-weight: medium
+}
+
+.operand{
+	border: 2px solid rgb(218, 165, 32);
+	border-radius: 2px;	
+}
+
+.operand:hover{
+	border: 1px solid rgb(50, 205, 50);
+	font-weight: medium;
+	border-radius: 50%;	
+}
+
+#equal{
+	background-color: rgb(50, 205, 50);
+	border: 2px solid rgb(80, 80, 80);
+	border-radius: 2px;
+}
+
+#screen{
+	border: 1px solid rgba(192, 192, 192, 1);
+}
+
+.etc{
+	border: 2px solid rgba(255, 0, 0, .5);
+}
+
+.etc:hover{
+	border: 1px solid rgba(192, 192, 192, 1);
+	font-weight: medium;
+}
+
+.footer{
+	font-size: 1.2em;
+	clear: left;
+	width: 40%;
+	margin: 0 auto;
+	border-top: 1px solid grey;
+	border-radius: 
+}
+
