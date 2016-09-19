@@ -5,21 +5,26 @@ body{
 	position: relative;
 }
 	
-#header{
-	width: 1400px;
+#header-container{
+	width: 100%;
 	height: 400px;
-	background: url('images/header/header.png');
+	background-image: url('images/header/header.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 	padding-top: 0;
 	position: relative;
 }
 
 #details{
 	position: absolute;
-	top:30px;
-	left: 400px;
-	width: 600px;
+	top: 20%;
+	right: 2%;
+	width: 50%;
 	margin: 0 auto;
+	color: rgb(79, 234, 255);
+	text-align: center;
 }
+
 
 /* Header fonts */
 #name{
@@ -29,18 +34,10 @@ body{
 	text-shadow: .1em .1em 0.15em rgb(150, 150, 150);
 }
 
-#name span{
-	font-weight: bold;
-}
-
-#path-span{
-	font-size: 1.5em;
-}
-
-#path{
-	font-family: Ubuntu, sans-serif;
+#career-path{
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 2em;
-	color: rgb(100, 100, 100);
+	color: rgb(170, 170, 170);
 }
 
 #quote{
@@ -48,13 +45,10 @@ body{
 	font-size: 2em;
 }
 
-.quote{
-	color: rgb(120, 120, 120);
-}
 
 /* Navigation Menu */
 #main-nav{
-	width: 600px;
+	width: 800px;
 	margin: 0 auto;
 }
 
@@ -131,6 +125,7 @@ hr{
 	opacity: .4;
 }
 
+
 a{
 	text-decoration: none;
 	color: DodgerBlue;
@@ -172,6 +167,26 @@ a{
 
 #content{
 	font-size: 16px;
+}
+
+#form{
+	width: 600px;
+	height: 600px;
+	background-image: url('images/page/cur.png');
+	background-size: cover;
+}
+
+#body-text{
+	position: absolute;
+	top: 600px;
+	right: 500px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	line-height: 2em;
+}
+
+span{
+	color: #D02362;
 }
 
 /*Calculator*/
@@ -295,12 +310,13 @@ button:hover{
 	font-weight: medium;
 }
 
-.footer{
-	font-size: 1.2em;
-	clear: left;
-	width: 40%;
-	margin: 0 auto;
-	border-top: 1px solid grey;
-	border-radius: 
+#home-link{
+	position: fixed;
+	top: 400px;
+	right: 40px;
 }
 
+#home-link li{
+	background-color: yellow;
+
+}
