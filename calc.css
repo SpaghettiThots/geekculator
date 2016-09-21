@@ -87,6 +87,19 @@ li{
 	border-bottom-left-radius: 3px;
 }
 
+#top-and-bottom:hover{
+	color: rgb(192, 0, 0);
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-top: 2px solid rgb(200, 255, 50);
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-bottom: 2px solid rgb(200, 255, 50);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
 .top:active{
 	color: rgb(192, 0, 0);
 	border-top: none;
@@ -105,6 +118,18 @@ li{
 	border-bottom: 2px solid rgb(200, 255, 50);
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
+}
+
+#top-and-bottom:active{
+	color: rgb(192, 0, 0);
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-top: 2px solid rgb(200, 255, 50);
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;	
 }
 
 li a{
@@ -204,6 +229,10 @@ legend{
 	width: 155px;
 	margin: 0 auto;
 	padding-bottom: 10px;
+}
+
+form{
+	background-color: #ff0;
 }
 
 hr{
@@ -318,5 +347,4 @@ button:hover{
 
 #home-link li{
 	background-color: yellow;
-
 }
